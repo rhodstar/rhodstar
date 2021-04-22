@@ -1,0 +1,204 @@
+\documentclass[blue]{pastelcv}              % available options are: turquoise, 
+                                            % red, lighthipsterblue, rose, blue,
+                                            % pastelgreen, grey, allblack
+\usepackage[utf8x]{inputenc}
+
+\usepackage[familydefault,light]{Chivo}     % Option 'familydefault' only if the 
+                                            % base font of the document is to be
+                                            % sans serif
+\usepackage[default]{raleway}
+\usepackage[T1]{fontenc}
+
+\getpagesetup
+
+\begin{document}
+
+\title{Rodrigo Francisco CV}
+\author{Rodrigo Francisco}
+\date{April 2020}
+
+\graphicspath{{assets/}}
+
+\thispagestyle{empty}
+
+\begin{center}
+  \headername{Rodrigo}{Francisco}
+  \jobdescription{Junior Developer}
+  %\adressline{CDMX}
+ 
+  \getgreyishblackfont
+  {
+    \small 
+    \headersymbols{%
+      \faMapMarker/CDMX, \faPhone/55 7729 9882, 
+      \faAt/\protect\url{rhodfra@gmail.com}%
+    } 
+  \faLinkedin~ rodrigo-fp\\[2mm]
+  \faGithub~ \protect\url{www.github.com/rhofp}
+  }
+
+\end{center}
+
+\vspace{3mm}
+%\begin{minipage}[t]{0.8\linewidth}
+  %I am an energetic, 
+  %I am passionate about turning ideas into reality
+  %I am currently looking for an opportunity to utilise my technical skills in a
+
+  %My greatest passion is in life is using my technical know-how to benefit other
+  %people and organisations.
+
+%\end{minipage}
+%\vspace{3mm}
+
+\setupparacol
+\setlength{\columnsep}{1.5cm}
+\begin{paracol}{2}
+
+\fancysection{cvcolour}{Exp}{erience}
+\begin{tabular}{r| p{\onethirdwidth}}
+  \cvevent{2017--2021}{Intern at PROTECO}{FI}{UNAM \color{cvaltcolour}}
+    {As an intern I had two main responsabilities: i) Coordinated several
+    internal projects; ii) Give intersemester courses of varios programming
+    languages, frameworks and some other technologies: Java, C, Python,
+    Laravel, GNU/Linux, Android and VueJS
+    } \\
+  \cvevent{2015--2021}{Web developer}{Ludomatics}{Edo. Mex \color{cvaltcolour}}
+  {As a web developer I was in charge of building a system to monitor the
+  student progress in their courses.}
+\end{tabular}
+\vspace{1em}
+
+\fancysection{cvcolour}{Lan}{guages}\\
+\begin{tabular}{l | ll}
+  \textbf{Spanish} &  & 
+  {\phantom{x}\footnotesize mother tongue} \\[2mm]
+  \textbf{English} &  & 
+  \pictofraction{\faCircle}{cvcolour}{4}{black!30}{2}{\small}
+\end{tabular}
+\vspace{1em}
+
+\fancysection{cvcolour}{Sof}{t skills}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{\onethirdwidth}}
+  Team player & Good a to working in group \\
+  Enthusiastic & Great ideas attract me 
+  %Spoken & English, French
+\end{tabular}
+
+\fancysection{cvcolour}{Per}{sonal Interest} %TODO:- Change title
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\linewidth}}
+  Instructor & I like teaching to younger fellow whow are starting in the same
+  path I'm in.\\
+  Free Knowledge & In my free time I mantain a github repository with some
+  courses of my own.\\
+\end{tabular}
+
+\fancysection{cvcolour}{Dip}{lomas}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.8\linewidth}}
+  2020 & CCNAv7: Introduction to networking\\
+  2020 & CCNAv7: Switching, Routing and Wireless Essentials\\
+  2020 & CCNAv7: Enterprise networks, security and automatization
+\end{tabular}
+
+%\fancysection{cvcolour}{Per}{sonal Projects}
+
+%This projects made me learn a lot\\[0.3em]
+
+%\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{\onethirdwidth}}
+  %Amiko  & Its a simple, yet very usefull web system I developed to organized
+  %in an easy way my schedule at Engineering Faculty. Build with \textbf{vuejs}\\
+  %Rootbrain & Root brain is multiplatform app that my friends and I developed
+  %to promote some science information about the brain. I was all
+  %implemented in \textbf{Unity}
+%\end{tabular}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%                Second column                     %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\switchcolumn
+
+\fancysection{cvcolour}{Edu}{cation}
+\begin{tabular}{r p{\onethirdwidth}}
+    \cvdegree{2016--}{Computer Engineering}{Engineering Faculty}{National
+    Autonomous of Mexico (UNAM)\color{cvaltcolour}}{}\\
+    \cvdegree{2021--}{iOS diplomaed}{Engineering Faculty}
+    {UNAM\color{cvaltcolour}}{}
+\end{tabular}
+%\vspace{0.5em}
+
+\fancysection{cvcolour}{Ski}{lls} %TODO:- Change name
+
+\progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
+  {\large\bf \includegraphics[width=9mm]{ios}}
+  {iOS developer}{below}{50}
+\progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
+  {\large\bf \includegraphics[width=8mm]{android} }
+  {Android developer}{below}{40}
+\vspace{0.5em}
+
+\fancysection{cvcolour}{Pro}{gramming}
+
+\progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
+  {\large\bf \includegraphics[width=9mm]{swift}}
+  {}{below}{60}
+\progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
+  {\large\bf \includegraphics[width=8mm]{java} }
+  {}{below}{70}
+\progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
+  {\large\bf \includegraphics[width=1.5cm]{kotlin} }
+  {}{below}{30}
+\progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
+  {\large\bf \includegraphics[width=8mm]{js}}
+  {}{below}{75}
+\vspace{0.5em}
+
+\fancysection{cvcolour}{Fra}{meworks and others}
+\begin{minipage}[t]{\paracolwidth}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     Git &  \barrule{0.7}{0.5em}{cvcolour}\\
+     GNU/Linux &  \barrule{0.7}{0.5em}{cvcolour}\\
+     \LaTeX{} & \barrule{0.6}{0.5em}{cvcolour} \\
+     Laravel & \barrule{0.7}{0.5em}{cvcolour} \\
+     VueJS & \barrule{0.7}{0.5em}{cvcolour} \\
+     PL/SQL & \barrule{0.6}{0.5em}{cvcolour} 
+\end{tabular}
+\end{minipage}
+\vspace{0.5em}
+
+\fancysection{cvcolour}{Awa}{rds and achievements}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.8\linewidth}}
+  2019 & Second place at 'Aplica la ciencia' contest in app development
+\end{tabular}
+\vspace{0.5em}
+
+\fancysection{cvcolour}{Pub}{lications}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.8\linewidth}}
+  2020 & \textit{Characterization of objects in indoor spaces of human
+  occupation using knowledge graphs} at 17th International Conference on
+  Electrical Engineering, Computing Science and Automatic Control 
+\end{tabular}
+\vspace{0.5em}
+
+\fancysection{cvcolour}{Tal}{ks}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.36\textwidth}}
+  2020 & 
+  \emph{Characterization of objects in indoor spaces of human occupation using
+  knowledge graphs}, CCE 2020 - CINVESTAV
+\end{tabular}
+\smallskip
+
+
+%\fancysection{cvcolour}{Cou}{rses}
+%%\textsc{\large National}\\[0.5em]
+%\begin{tabular}{r >{\footnotesize}%
+  %p{\onefifthwidth} >{\footnotesize\itshape\color{cvcolour}}r}
+    %2014 & \textbf{Programming,} C++, C & PROTECO \\
+    %2011 & \textbf{Web,} JavaScript & PROTECO 
+%\end{tabular}
+%\medskip
+
+\end{paracol}
+
+\end{document}
