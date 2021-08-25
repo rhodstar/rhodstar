@@ -1,0 +1,39 @@
+= Rodrigo Francisco
+Creado por Rodrigo Francisco <rhodfra@gmail.com>
+Version 1.0, 12.03.2021
+// Ruta base de las imagenes
+:imagesdir: ./README.assets/ 
+// Resaltar sintaxis
+:source-highlighter: pygments
+// Iconos para entorno local
+ifndef::env-github[:icons: font]
+// Iconos para entorno github
+ifdef::env-github[]
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+== Junior Software Developer
+
+I'm a software engineer that loves creating quality code by using the industry
+good pratises 
+
+=== Skills
+
+image::skills.png[]
+
+=== Programming Languages
+
+image::programming.png[]
+
+=== Frameworks and others
+
+image::frameworks.png[]
+
+=== Languajes and Contributing stats
+
+image::https://github-readme-stats.vercel.app/api/top-langs/?username=rhodstar&langs_count=8&layout=compact[]
+
