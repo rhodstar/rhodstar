@@ -23,15 +23,15 @@ good pratises
 
 === Skills
 
-image::skills.png[]
+image::skills.png[width=500]
 
 === Programming Languages
 
-image::programming.png[]
+image::programming.png[width=500]
 
 === Frameworks and others
 
-image::frameworks.png[]
+image::frameworks.png[width=600]
 
 === Languajes and Contributing stats
 
