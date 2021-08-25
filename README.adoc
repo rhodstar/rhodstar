@@ -1,4 +1,4 @@
-= Rodrigo Francisco
+= Junior Software Developer
 Creado por Rodrigo Francisco <rhodfra@gmail.com>
 Version 1.0, 12.03.2021
 // Ruta base de las imagenes
@@ -16,10 +16,11 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-== Junior Software Developer
-
 I'm a software engineer that loves creating quality code by using the industry
 good pratises 
+
+Download the complete résumé in
+https://github.com/rhodstar/rhodstar/raw/main/RodrigoFrancisco.pdf[here]
 
 === Skills
 
@@ -37,3 +38,21 @@ image::frameworks.png[width=600]
 
 image::https://github-readme-stats.vercel.app/api/top-langs/?username=rhodstar&langs_count=8&layout=compact[]
 
+
+=== Other relevant stuff
+
+==== Languages
+
+[horizontal]
+Spanish:: 
+Mother tongue
+English::
+B1
+
+==== Publications
+
+[horizontal]
+2020:: 
+Characterization of objects in indoor spaces of human occupation using
+knowledge graphs at 17th International Conference on Electrical Engineering
+Computing Science and Automatic Control.
