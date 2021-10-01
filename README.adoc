@@ -1,4 +1,4 @@
-= Junior Software Developer
+= Software Developer
 Creado por Rodrigo Francisco <rhodfra@gmail.com>
 Version 1.0, 12.03.2021
 // Ruta base de las imagenes
