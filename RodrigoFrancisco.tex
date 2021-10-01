@@ -8,8 +8,13 @@
                                             % sans serif
 \usepackage[default]{raleway}
 \usepackage[T1]{fontenc}
+\usepackage{ifthen}
 
 \getpagesetup
+
+\newcommand{\lang}{es}
+\newcommand{\stringSelector}[2]{ \ifthenelse{\equal{\lang}{en}}{#1\kern-0.4ex}{#2\kern-0.4ex}}
+\include{constants}
 
 \begin{document}
 
@@ -23,7 +28,7 @@
 
 \begin{center}
   \headername{Rodrigo}{Francisco}
-  \jobdescription{Software Developer}
+  \jobdescription{\jobdescriptionText}
   %\adressline{CDMX}
  
   \getgreyishblackfont
@@ -41,8 +46,7 @@
 
 \vspace{-2mm}
 \begin{center}
-  \small My name is Rodrigo Francisco Pablo and I'm a passionate software developer
-  intrigued by builiding quality and durable backend and mobile aplications.
+  \small \summaryText 
 \end{center}
 \vspace{2mm}
 
@@ -50,55 +54,46 @@
 \setlength{\columnsep}{1.5cm}
 \begin{paracol}{2}
 
-\fancysection{cvcolour}{Exp}{erience}
+\fancysection{cvcolour}{\Exp}{\ExperienceText}
 \begin{tabular}{r| p{\onethirdwidth}}
-  \cvevent{2017--2021}{Intern at PROTECO}{FI}{UNAM \color{cvaltcolour}}
-    {As an intern I had two main responsabilities: i) Coordinated several
-    internal projects; ii) Give intersemester courses of various programming
-    languages, frameworks and some other technologies: Java, C, Python,
-    Laravel, GNU/Linux, Android and VueJS
-    } \\
-  \cvevent{2015--2021}{Web developer}{Ludomatics}{Edo. Mex \color{cvaltcolour}}
-  {As a web developer I was in charge of building a system to monitor the
-  student progress in their courses.}
+  \cvevent{2017--2021}{\protecoTitle}{FI}{UNAM \color{cvaltcolour}}
+    {\protecoDesc } \\
+  \cvevent{2015--2021}{\webDevTitle}{Ludomatics}{Edo. Mex \color{cvaltcolour}}
+  {\webDevDesc}
 \end{tabular}
 \vspace{1em}
 
-\fancysection{cvcolour}{Lan}{guages}\\
+\fancysection{cvcolour}{\Lan}{\LanguagesText}\\
 \begin{tabular}{l | ll}
-  \textbf{Spanish} &  & 
-  {\phantom{x}\footnotesize mother tongue} \\[2mm]
-  \textbf{English} &  & 
+  \textbf{\Spanish} &  & 
+  {\phantom{x}\footnotesize \motherTongue} \\[2mm]
+  \textbf{\English} &  & 
   \pictofraction{\faCircle}{cvcolour}{4}{black!30}{2}{\small}
 \end{tabular}
 \vspace{1em}
 
-\fancysection{cvcolour}{Sof}{t skills}
+\fancysection{cvcolour}{\Sof}{\SoftText}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{\onethirdwidth}}
-  Team player & Good a to working in group \\
-  Enthusiastic & Great ideas attract me 
+  \skillOne & \skillOneDesc \\
+  \skillTwo & \skillTwoDesc
   %Spoken & English, French
 \end{tabular}
 
-\fancysection{cvcolour}{Per}{sonal Interest} %TODO:- Change title
+\fancysection{cvcolour}{\Per}{\PersonalText} %TODO:- Change title
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\linewidth}}
-  Instructor & I like teaching to younger fellow whom are starting in the same
-  path I'm in.\\
-  Free Knowledge & In my free time I mantain a github repository with some
-  courses of my own.\\
+  \Instructor & \instructorDesc\\
+  \FreKnowledge & \freKnowledgeDesc\\
 \end{tabular}
 
-\fancysection{cvcolour}{Awa}{rds and achievements}
+\fancysection{cvcolour}{\Awa}{\AwardsText}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.8\linewidth}}
-  2019 & Second place at `Aplica la ciencia' contest in app development
+  2019 & \achiveOne
 \end{tabular}
 \vspace{0.5em}
 
-\fancysection{cvcolour}{Pub}{lications}
+\fancysection{cvcolour}{\Pub}{\PublicationText}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.8\linewidth}}
-  2020 & \textit{Characterization of objects in indoor spaces of human
-  occupation using knowledge graphs} at 17th International Conference on
-  Electrical Engineering, Computing Science and Automatic Control 
+  2020 & \publicationOne
 \end{tabular}
 \vspace{0.5em}
 
@@ -128,30 +123,29 @@
 
 \switchcolumn
 
-\fancysection{cvcolour}{Edu}{cation}
+\fancysection{cvcolour}{\Edu}{\EducationText}
 \begin{tabular}{r p{\onethirdwidth}}
-    \cvdegree{2016--}{Computer Engineering}{Engineering Faculty}{National
-    Autonomous of Mexico (UNAM)\color{cvaltcolour}}{}\\
-    \cvdegree{2021--}{iOS diplomaed}{Engineering Faculty}
+    \cvdegree{2016--}{\ComputerEngineer}{\FIUNAM}{\UNAMLarge\color{cvaltcolour}}{}\\
+    \cvdegree{2021--}{\IOSDiploma}{\FIUNAM}
     {UNAM\color{cvaltcolour}}{}
 \end{tabular}
 %\vspace{0.5em}
 
-\fancysection{cvcolour}{Ski}{lls} %TODO:- Change name
+\fancysection{cvcolour}{\Ski}{\SkillsText} %TODO:- Change name
 
 \progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
   {\large\bf \includegraphics[width=9mm]{server}}
-  {Backend developer}{below}{60}
+  {\backendDev}{below}{50}
 \progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
   {\large\bf \includegraphics[width=9mm]{ios}}
-  {iOS developer}{below}{50}
+  {\mobileDev}{below}{50}
 %\progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
   %{\large\bf \includegraphics[width=8mm]{android} }
   %{Android developer}{below}{40}
 \vspace{0.5em}
 
 \newcommand{\iconsizep}{6mm}
-\fancysection{cvcolour}{Pro}{gramming}
+\fancysection{cvcolour}{\Pro}{\ProgrammingText}
 
 \progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
   {\large\bf \includegraphics[width=\iconsizep]{python}}
@@ -173,7 +167,7 @@
   {}{below}{40}
 \vspace{0.5em}
 
-\fancysection{cvcolour}{Fra}{meworks and related}
+\fancysection{cvcolour}{\Fra}{\FrameworksText}
 \begin{minipage}[t]{\paracolwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
      Flask & \barrule{0.5}{0.5em}{cvcolour} \\
@@ -184,23 +178,20 @@
 \end{minipage}
 \vspace{0.5em}
 
-\fancysection{cvcolour}{Oth}{ers}
+\fancysection{cvcolour}{\Oth}{\OthersText}
 \begin{minipage}[t]{\paracolwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
      Git &  \barrule{0.6}{0.5em}{cvcolour}\\
      GNU/Linux &  \barrule{0.4}{0.5em}{cvcolour}\\
-     %PL/SQL & \barrule{0.5}{0.5em}{cvcolour}  \\
      Oracle DB & \barrule{0.2}{0.5em}{cvcolour}  \\
      PostgreSQL & \barrule{0.1}{0.5em}{cvcolour}
 \end{tabular}
 \end{minipage}
 
-\fancysection{cvcolour}{Tal}{ks}
+\fancysection{cvcolour}{\Tal}{\TalksString}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.36\textwidth}}
-  2020 & 
-  \emph{Characterization of objects in indoor spaces of human occupation using
-  knowledge graphs}, CCE 2020 - CINVESTAV
-\end{tabular}
+  2020 & \conferenceOne
+  \end{tabular}
 \smallskip
 
 
