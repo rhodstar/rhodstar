@@ -16,8 +16,8 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-I'm a software engineer that loves creating quality code by using the industry
-good pratises 
+I'm a software developer intrigued by building quality and durable *backend* and
+*mobile aplications*
 
 Download the complete résumé in
 https://github.com/rhodstar/rhodstar/raw/main/RodrigoFrancisco.pdf[here]
@@ -30,9 +30,13 @@ image::skills.png[width=500]
 
 image::programming.png[width=500]
 
-=== Frameworks and others
+=== Frameworks and related
 
 image::frameworks.png[width=600]
+
+=== Others
+
+image::others.png[width=600]
 
 === Languajes and Contributing stats
 
