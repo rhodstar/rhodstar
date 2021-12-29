@@ -12,7 +12,7 @@
 
 \getpagesetup
 
-\newcommand{\lang}{es}
+\newcommand{\lang}{en}
 \newcommand{\stringSelector}[2]{ \ifthenelse{\equal{\lang}{en}}{#1\kern-0.4ex}{#2\kern-0.4ex}}
 \include{constants}
 
@@ -148,32 +148,33 @@
 \fancysection{cvcolour}{\Pro}{\ProgrammingText}
 
 \progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
-  {\large\bf \includegraphics[width=\iconsizep]{python}}
-  {}{below}{70}
-\progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
   {\large\bf \includegraphics[width=\iconsizep]{swift}}
   {}{below}{50}
+\progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
+  {\large\bf \includegraphics[width=\iconsizep]{python}}
+  {}{below}{70}
 \progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
   {\large\bf \includegraphics[width=\iconsizep]{java} }
   {}{below}{50}
 %\progressarc{1.5mm}{cvcolour}{8mm}{cvaltcolour}
   %{\large\bf \includegraphics[width=1.5cm]{kotlin} }
   %{}{below}{30}
-\progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
-  {\large\bf \includegraphics[width=\iconsizep]{js}}
-  {}{below}{75}
-\progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
-  {\large\bf \includegraphics[width=8mm]{pl-sql}}
-  {}{below}{40}
+%\progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
+  %{\large\bf \includegraphics[width=\iconsizep]{js}}
+  %{}{below}{50}
+%\progressarc{1.5mm}{cvcolour}{\iconsizep}{cvaltcolour}
+  %{\large\bf \includegraphics[width=8mm]{pl-sql}}
+  %{}{below}{40}
 \vspace{0.5em}
 
 \fancysection{cvcolour}{\Fra}{\FrameworksText}
 \begin{minipage}[t]{\paracolwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
+     FastAPI & \barrule{0.4}{0.5em}{cvcolour} \\
      Flask & \barrule{0.5}{0.5em}{cvcolour} \\
      Django & \barrule{0.17}{0.5em}{cvcolour} \\
      Laravel & \barrule{0.4}{0.5em}{cvcolour} \\
-     VueJS & \barrule{0.3}{0.5em}{cvcolour} \\
+     %VueJS & \barrule{0.3}{0.5em}{cvcolour} \\
 \end{tabular}
 \end{minipage}
 \vspace{0.5em}
