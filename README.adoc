@@ -20,7 +20,7 @@ I'm a software developer intrigued by building quality and durable *backend* and
 *mobile aplications*
 
 Download the complete résumé in
-https://github.com/rhodstar/rhodstar/raw/main/RodrigoFrancisco.pdf[here]
+https://github.com/rodrigofrancisco/rodrigofrancisco/raw/main/RodrigoFrancisco.pdf[here]
 
 === Skills
 
@@ -40,7 +40,7 @@ image::others.png[width=600]
 
 === Languajes and Contributing stats
 
-image::https://github-readme-stats.vercel.app/api/top-langs/?username=rhodstar&langs_count=8&layout=compact[]
+image::https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigofrancisco&langs_count=8&layout=compact[]
 
 
 === Other relevant stuff
