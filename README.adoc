@@ -1,0 +1,58 @@
+= Software Engineer
+Creado por Rodrigo Francisco <rodrigo.faw@gmail.com>
+Version 2.0, 10.10.2022
+// Ruta base de las imagenes
+:imagesdir: ./README.assets/ 
+// Resaltar sintaxis
+:source-highlighter: pygments
+// Iconos para entorno local
+ifndef::env-github[:icons: font]
+// Iconos para entorno github
+ifdef::env-github[]
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+I'm a software engineer who is constantly learning new things in order to build scale and mantainable software by using best practices and following SOLID principles.
+
+=== Skills
+
+image::skills.png[width=500]
+
+=== Programming Languages
+
+image::programming.png[width=500]
+
+=== Frameworks and related
+
+image::frameworks.png[width=600]
+
+=== Others
+
+image::others.png[width=600]
+
+=== Languajes and Contributing stats
+
+image::https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigofrancisco&langs_count=8&layout=compact[]
+
+
+=== Other relevant stuff
+
+==== Languages
+
+[horizontal]
+Spanish:: 
+Mother tongue
+English::
+B1
+
+==== Publications
+
+[horizontal]
+2020:: 
+Characterization of objects in indoor spaces of human occupation using
+knowledge graphs at 17th International Conference on Electrical Engineering
+Computing Science and Automatic Control.
