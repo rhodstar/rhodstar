@@ -21,7 +21,7 @@ development. I thrive in collaborative environments and enjoy tackling complex p
 innovative solutions. My passion for continuous learning and improvement drives me to stay updated
 with the latest technologies and best practices in software development.
 
-== Techlogy stack
+== Technology stack
 
 - Swift, UIKit, XCTest, CoreData, SPM, CocoaPods, RxSwift, Combine
 - Programatic Views, Storyboards, XIBs, SwiftUI
