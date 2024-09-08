@@ -1,4 +1,4 @@
-= Software Engineer
+= Software Engineer, iOS
 Creado por Rodrigo Francisco <rodrigo.faw@gmail.com>
 Version 2.0, 10.10.2022
 // Ruta base de las imagenes
@@ -16,43 +16,21 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-I'm a software engineer who is constantly learning new things in order to build scale and mantainable software by using best practices and following SOLID principles.
+I'm a software engineer based in Mexico City with several years of experience specializing in iOS
+development. I thrive in collaborative environments and enjoy tackling complex problems with
+innovative solutions. My passion for continuous learning and improvement drives me to stay updated
+with the latest technologies and best practices in software development.
 
-=== Skills
+== Techlogy stack
 
-image::skills.png[width=500]
+- Swift, UIKit, XCTest, CoreData, SPM, CocoaPods, RxSwift, Combine
+- Programatic Views, Storyboards, XIBs, SwiftUI
+- MVVM, Clean Architecture, SOLID Principles, Dependency Injection
+- Firebase tooling (Firestore, Analytics, Crashlytics, App Distribution, Remote config),
+- Git, Xcode Cloud, Shell Scripting, Github Actions, AppStoreConnect, TestFlight, Jira, Confluence
+- Proxyman, LLDB, Instruments
 
-=== Programming Languages
+== Contact
 
-image::programming.png[width=500]
-
-=== Frameworks and related
-
-image::frameworks.png[width=600]
-
-=== Others
-
-image::others.png[width=600]
-
-=== Languajes and Contributing stats
-
-image::https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigofrancisco&langs_count=8&layout=compact[]
-
-
-=== Other relevant stuff
-
-==== Languages
-
-[horizontal]
-Spanish:: 
-Mother tongue
-English::
-B1
-
-==== Publications
-
-[horizontal]
-2020:: 
-Characterization of objects in indoor spaces of human occupation using
-knowledge graphs at 17th International Conference on Electrical Engineering
-Computing Science and Automatic Control.
+- rodrigo.faw@gmail.com 
+- https://linkedin.com/in/rodrigo-fp
